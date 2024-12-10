@@ -29,7 +29,7 @@ function Jumbotron() {
         <Col className="col-sm-12 col-md-6 py-5 d-flex justify-content-center">
           <img
             className="w-100"
-            src="../src/assets/trafalgar-header.png"
+            src="./src/assets/trafalgar-header.png"
             alt="Jumbotron image"
           />
         </Col>
