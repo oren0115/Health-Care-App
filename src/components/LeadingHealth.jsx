@@ -10,7 +10,7 @@ function Leadinghealth() {
         <Col className="col-sm-12 col-md-6 d-flex justify-content-center">
           <img
             className="w-70"
-            src="../src/assets/trafalgar-illustration.png"
+            src="./src/assets/trafalgar-illustration.png"
             alt="Jumbotron image"
           />
         </Col>
