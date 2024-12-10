@@ -1,0 +1,113 @@
+/* Font style */
+.mulish-Font400 {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mulish-Font700 {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.mulish-Font500 {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.mulish-Font900 {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* hover nav underline */
+.hover-underline {
+  position: relative;
+  text-decoration: none;
+}
+.hover-underline:hover {
+  color: #035abd;
+}
+
+.hover-underline::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  left: 0;
+  bottom: -1px;
+  background: #035abd;
+  transition: width 0.3s;
+}
+.hover-underline:hover::after,
+.hover-underline:focus::after,
+.hover-underline.active::after {
+  width: 100%;
+}
+
+/* jumbotron */
+
+.custom-button {
+  width: 40%;
+}
+
+.custom-button {
+  background-color: var(--bs-primary);
+  color: white;
+  border-color: var(--bs-primary);
+}
+
+.custom-button:hover {
+  background-color: #f9fbff;
+  color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+/* card style */
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  height: 354px;
+  width: 354px;
+}
+
+.icon-card {
+  max-width: 90px;
+  max-height: 90px;
+}
+
+.hover-card {
+  transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+.hover-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* Leading Health css */
+.custom-underline {
+  border: none;
+  border-bottom: 3px solid var(--bs-primary);
+  margin: 1rem 0;
+  width: 50%;
+}
+
+/* testimonials */
+.testimonials-bg {
+  background-image: url("../assets/Rectangle 13.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 15px;
+  border-radius: 15px;
+}
