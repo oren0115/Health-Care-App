@@ -30,7 +30,7 @@ function DownloadsApps() {
         <Col className="col-12 col-md-8 py-5 d-flex justify-content-center">
           <img
             className="w-70"
-            src="../src/assets/trafalgar-illustration sec03.png"
+            src="./src/assets/trafalgar-illustration sec03.png"
             alt="Jumbotron image"
           />
         </Col>
